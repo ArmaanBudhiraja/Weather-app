@@ -90,6 +90,15 @@ elif cond =='Partly cloudy':
             partlycloudy_label.grid(row=4,column=1,rowspan=5)
         else:
             nightcloudy_label.grid(row=4,column=1,rowspan=20)
+elif cond == 'Snow':
+    snowing_label.grid(row=4,column=1,rowspan=5)
+elif cond == 'Thunder':
+    thunder_label.grid(row=4,column=1,rowspan=5)
+elif cond == 'Thunderstorm':
+    thunderstorm_label.grid(row=4,column=1,rowspan=5)
+elif cond == 'Windy':
+    windy_label.grid(row=4,column=1,rowspan=5)
+
 
 
 temp_label =Label(root,text =str(int(temp))+"°C", font = "calibiri 50 bold",bg="#3A5FCD",fg ="white",anchor=W)
