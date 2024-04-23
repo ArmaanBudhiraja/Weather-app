@@ -78,7 +78,7 @@ thunderstorm_label =Label(root, image =thunderstorm)
 windy_label =Label(root, image =windy)
 
 #putting the pic
-if cond=='Clear':
+if cond=='Clear' or cond =='Sunny':
     if int(time[:2])>6 and int(time[:2])<20:
         sunny_label.grid(row=4,column=1,rowspan=5)
     else:
